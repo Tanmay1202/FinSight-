@@ -12,13 +12,6 @@
         "dest": "/server.js"
       },
       {
-        "src": "/(.*\\.(css|js|ico|png|jpg|jpeg|gif|svg))",
-        "dest": "/public/$1",
-        "headers": {
-          "Cache-Control": "public, max-age=31536000, immutable"
-        }
-      },
-      {
         "src": "/(.*)",
         "dest": "/server.js"
       }
